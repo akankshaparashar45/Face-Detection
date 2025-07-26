@@ -1,5 +1,24 @@
 # Face-Detection
 Deep Learning | Computer Vision
+# Part A: Face Mask Detection
+## Objective:
+To train a deep learning model to segment the facial region (mask) from movie scene images using U-Net and MobileNet architecture.
+## Dataset:
+- Contains approximately 400 movie scene images with corresponding face annotations
+- Format: NumPy array of (image, annotations) pairs
+- Each entry includes:
+   - X: RGB image array
+   - Y: metadata with face coordinates and image dimensions
+- Source: Provided by an educational institution.
+
+Note: The dataset is restricted and cannot be shared publicly. Please use your own image-mask pairs to replicate this task.
+## Methodology:
+- Data loading and preprocessing
+- Normalization and shape unification
+- U-Net model creation using pretrained MobileNet encoder
+- Custom Dice loss and Dice coefficient for training
+- Model trained on 50 samples, validated on 20, and tested on 30
+- Output: Predicted face masks for new input images
 # Part B: Face Detection using Haarcascade
 ## Objective:
 To detect and extract facial regions from raw profile images using classical computer vision (OpenCV’s Haarcascade), generate a metadata record for each detected face, and store the results in a Pandas DataFrame.
@@ -31,7 +50,7 @@ To recognize faces by computing embeddings with a pretrained VGGFace model and c
 - Size: ~10,770 images
 - Source: Provided as part of coursework; reuse is restricted.
 
-Note: Cannot share dataset publicly. You may use any labeled face dataset like LFW or your own.
+Note: Cannot share dataset publicly. You may use any labeled face dataset.
 ## Methodology:
 - Load images and extract metadata
 - Preprocess and normalize face inputs
