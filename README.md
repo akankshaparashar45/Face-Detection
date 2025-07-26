@@ -2,7 +2,7 @@
 Deep Learning | Computer Vision
 # Part B: Face Detection using Haarcascade
 ## Objective:
-To detect and extract facial regions from raw profile images using classical computer vision (OpenCV's Haarcascade).
+To detect and extract facial regions from raw profile images using classical computer vision (OpenCV’s Haarcascade), generate a metadata record for each detected face, and store the results in a Pandas DataFrame.
 ## Dataset:
 - Folder containing profile images of individuals
 - Format: .jpg files
