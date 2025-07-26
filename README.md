@@ -23,31 +23,21 @@ Note: This dataset cannot be shared publicly due to institutional policy. Please
 - Export metadata to a .csv file
   
 # Part C: Face Recognition using Embeddings
-📌 Objective:
+## Objective:
 To recognize faces by computing embeddings with a pretrained VGGFace model and classifying them using SVM.
+## Dataset:
+- Pinterest dataset containing aligned face images of 100 celebrities.
+- Format: Folder structure with subfolders per person.
+- Size: ~10,770 images
+- Source: Provided as part of coursework; reuse is restricted.
 
-📁 Dataset:
-PINS dataset containing aligned face images of 100 celebrities.
+Note: Cannot share dataset publicly. You may use any labeled face dataset like LFW or your own.
+## Methodology:
+- Load images and extract metadata
+- Preprocess and normalize face inputs
+- Compute face embeddings using pretrained VGG19 model
+- Evaluate cosine similarity between embeddings
+- Use PCA for dimensionality reduction
+- Train SVM classifier on embeddings
+- Predict identity of test face images
 
-Format: Folder structure with subfolders per person.
-
-Size: ~10,770 images
-
-Source: Provided as part of coursework; reuse is restricted.
-
-⚠️ Cannot share dataset publicly. You may use any labeled face dataset like LFW or your own.
-
-🔧 Methodology:
-Load images and extract metadata
-
-Preprocess and normalize face inputs
-
-Compute face embeddings using pretrained VGGFace model
-
-Use PCA for dimensionality reduction
-
-Train SVM classifier on embeddings
-
-Predict identity of test face images
-
-Evaluate cosine similarity between embeddings
