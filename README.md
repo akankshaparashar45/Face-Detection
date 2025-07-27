@@ -8,6 +8,7 @@ Deep Learning | Computer Vision
   ```
  
 Note: These libraries were installed and tested using Python 3.8.5.
+
 *** The project is divided into three distinct parts, each addressing a specific computer vision task as described below.
 # Part A: Face Mask Detection
 ## Objective:
