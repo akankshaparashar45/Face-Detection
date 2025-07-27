@@ -1,0 +1,18 @@
+# Requirements for Computer Vision Project
+
+# 1. Core Libraries
+numpy==1.23.1
+pandas==1.1.3
+
+# 2. Visualization
+matplotlib==3.7.3
+
+# 3. Machine Learning
+scikit-learn==1.3.2
+
+# 4. Deep Learning
+tensorflow==2.9.1
+keras==2.9.0
+
+# 5. Computer Vision
+opencv-python==4.5.5.64
