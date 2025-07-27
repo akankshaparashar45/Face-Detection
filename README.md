@@ -21,6 +21,7 @@ To train a deep learning model to segment the facial region (mask) from movie sc
 
 Note: The dataset is restricted and cannot be shared publicly. Please use your own image-mask pairs to replicate this task.
 ## Methodology:
+  (used in Face_Detection_Part A.ipynb)
 - Data loading and preprocessing
 - Normalization and shape unification
 - U-Net model creation using pretrained MobileNet encoder
@@ -38,6 +39,7 @@ To detect and extract facial regions from raw profile images using classical com
 
 Note: This dataset cannot be shared publicly due to institutional policy. Please use your own images for face detection testing.
 ##  Methodology:
+  (used in Face_Detection_Part B.ipynb)
 - Load images using OpenCV
 - Apply the pre-trained Haarcascade Frontal Face classifier
 - Detect faces in each image and draw bounding boxes around detected regions
@@ -60,6 +62,7 @@ To recognize faces by computing embeddings with a pretrained VGGFace model and c
 
 Note: Cannot share dataset publicly. You may use any labeled face dataset.
 ## Methodology:
+  (used in Face_Detection_Part C.ipynb)
 - Load images and extract metadata
 - Preprocess and normalize face inputs
 - Compute face embeddings using pretrained VGG19 model
