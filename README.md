@@ -1,5 +1,13 @@
 # Face-Detection
 Deep Learning | Computer Vision
+# Installation
+## Install dependencies locally
+  
+  ```bash 
+  pip install -r requirements.txt
+  ```
+ 
+    Note: These libraries were installed and tested using Python 3.8.5.
 # Part A: Face Mask Detection
 ## Objective:
 To train a deep learning model to segment the facial region (mask) from movie scene images using U-Net and MobileNet architecture.
