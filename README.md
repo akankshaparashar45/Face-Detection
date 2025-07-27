@@ -1,7 +1,7 @@
 # Face-Detection
 Deep Learning | Computer Vision
-# Installation
-## Install dependencies locally
+# 1.Installation
+## 1.1 Install dependencies locally
   
   ```bash 
   pip install -r requirements.txt
@@ -9,11 +9,11 @@ Deep Learning | Computer Vision
  
 Note: These libraries were installed and tested using Python 3.8.5.
 
-# The project is divided into three distinct parts, each addressing a specific computer vision task as described below.
-# Part A: Face Mask Detection
-## Objective:
+# 2. The project is divided into three distinct parts, each addressing a specific computer vision task as described below.
+# 2.1 Part A: Face Mask Detection
+## 2.1.1 Objective:
 To train a deep learning model to segment the facial region (mask) from movie scene images using U-Net and MobileNet architecture.
-## Dataset:
+## 2.1.2 Dataset:
 - Contains approximately 400 movie scene images with corresponding face annotations
 - Format: NumPy array of (image, annotations) pairs
 - Each entry includes:
@@ -22,7 +22,7 @@ To train a deep learning model to segment the facial region (mask) from movie sc
 - Source: Provided by an educational institution
 
 Note: The dataset is restricted and cannot be shared publicly. Please use your own image-mask pairs to replicate this task.
-## Methodology:
+## 2.1.3 Methodology:
   (used in Face_Detection_Part A.ipynb)
 - Data loading and preprocessing
 - Normalization and shape unification
