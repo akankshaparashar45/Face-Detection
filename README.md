@@ -1,6 +1,6 @@
 # Face-Detection
 Deep Learning | Computer Vision
-# 1.Installation
+# 1. Installation
 ## 1.1 Install dependencies locally
   
   ```bash 
