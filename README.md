@@ -8,6 +8,7 @@ Deep Learning | Computer Vision
   ```
  
 Note: These libraries were installed and tested using Python 3.8.5.
+*** The project is divided into three distinct parts, each addressing a specific computer vision task as described below.
 # Part A: Face Mask Detection
 ## Objective:
 To train a deep learning model to segment the facial region (mask) from movie scene images using U-Net and MobileNet architecture.
@@ -17,16 +18,15 @@ To train a deep learning model to segment the facial region (mask) from movie sc
 - Each entry includes:
    - X: RGB image array
    - Y: metadata with face coordinates and image dimensions
-- Source: Provided by an educational institution.
+- Source: Provided by an educational institution
 
 Note: The dataset is restricted and cannot be shared publicly. Please use your own image-mask pairs to replicate this task.
 ## Methodology:
   (used in Face_Detection_Part A.ipynb)
 - Data loading and preprocessing
 - Normalization and shape unification
-- U-Net model creation using pretrained MobileNet encoder
-- Custom Dice loss and Dice coefficient for training
-- Model trained on 50 samples, validated on 20, and tested on 30
+- Model building using U-Net + MobileNet architectures
+- Train the model to learn face region segmentation
 - Output: Predicted face masks for new input images
 # Part B: Face Detection using Haarcascade
 ## Objective:
@@ -35,7 +35,7 @@ To detect and extract facial regions from raw profile images using classical com
 - Folder containing profile images of individuals
 - Format: .jpg files
 - Size: 1000 images (approx)
-- Source: Provided by an educational institution.
+- Source: Provided by an educational institution
 
 Note: This dataset cannot be shared publicly due to institutional policy. Please use your own images for face detection testing.
 ##  Methodology:
@@ -53,9 +53,9 @@ Note: This dataset cannot be shared publicly due to institutional policy. Please
   
 # Part C: Face Recognition using Embeddings
 ## Objective:
-To recognize faces by computing embeddings with a pretrained VGGFace model and classifying them using SVM.
+To recognize faces by computing embeddings with a pretrained VGG19 model and classifying them using SVM.
 ## Dataset:
-- Pinterest dataset containing aligned face images of 100 celebrities.
+- Dataset containing aligned face images of 100 celebrities.
 - Format: Folder structure with subfolders per person.
 - Size: ~10,770 images
 - Source: Provided as part of coursework; reuse is restricted.
