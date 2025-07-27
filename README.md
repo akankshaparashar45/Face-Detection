@@ -29,17 +29,17 @@ Note: The dataset is restricted and cannot be shared publicly. Please use your o
 - Model building using U-Net + MobileNet architectures
 - Train the model to learn face region segmentation
 - Output: Predicted face masks for new input images
-# Part B: Face Detection using Haarcascade
-## Objective:
+## 2.2 Part B: Face Detection using Haarcascade
+### 2.2.1 Objective:
 To detect and extract facial regions from raw profile images using classical computer vision (OpenCV’s Haarcascade), generate a metadata record for each detected face, and store the results in a Pandas DataFrame.
-## Dataset:
+### 2.2.2 Dataset:
 - Folder containing profile images of individuals
 - Format: .jpg files
 - Size: 1000 images (approx)
 - Source: Provided by an educational institution
 
 Note: This dataset cannot be shared publicly due to institutional policy. Please use your own images for face detection testing.
-##  Methodology:
+###  2.2.3 Methodology:
   (used in Face_Detection_Part B.ipynb)
 - Load images using OpenCV
 - Apply the pre-trained Haarcascade Frontal Face classifier
@@ -52,17 +52,17 @@ Note: This dataset cannot be shared publicly due to institutional policy. Please
 - Store metadata in a Pandas DataFrame
 - Export metadata to a .csv file
   
-# Part C: Face Recognition using Embeddings
-## Objective:
+## 2.3 Part C: Face Recognition using Embeddings
+### 2.3.1 Objective:
 To recognize faces by computing embeddings with a pretrained VGG19 model and classifying them using SVM.
-## Dataset:
+### 2.3.2 Dataset:
 - Dataset containing aligned face images of 100 celebrities.
 - Format: Folder structure with subfolders per person.
 - Size: ~10,770 images
 - Source: Provided as part of coursework; reuse is restricted.
 
 Note: Cannot share dataset publicly. You may use any labeled face dataset.
-## Methodology:
+### 2.3.3 Methodology:
   (used in Face_Detection_Part C.ipynb)
 - Load images and extract metadata
 - Preprocess and normalize face inputs
